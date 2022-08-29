@@ -16,13 +16,12 @@
 }
 body {
     background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
-    /* background-repeat: space; */
+    background-position: -300px 300px;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--DarkCyan);
-    
 }
 .mainCard {
     max-width: 32.5rem;
